@@ -1,0 +1,18 @@
+[
+{"id":"python_basics","title":"Python Basics","category":"Programming","difficulty":1,"duration_hours":3,"prerequisites":[],"description":"Variables, data types, conditions, loops and functions."},
+{"id":"python_intermediate","title":"Python Intermediate","category":"Programming","difficulty":2,"duration_hours":4,"prerequisites":["python_basics"],"description":"Lists, dictionaries, modules, exceptions and file handling."},
+{"id":"python_advanced","title":"Python Advanced","category":"Programming","difficulty":3,"duration_hours":4,"prerequisites":["python_intermediate"],"description":"OOP, decorators, generators and advanced Python practices."},
+{"id":"numpy_pandas","title":"NumPy and Pandas","category":"Data Science","difficulty":2,"duration_hours":4,"prerequisites":["python_intermediate"],"description":"Arrays, DataFrames, data cleaning and analysis."},
+{"id":"data_visualization","title":"Data Visualization","category":"Data Science","difficulty":2,"duration_hours":3,"prerequisites":["numpy_pandas"],"description":"Charts and communicating patterns in data."},
+{"id":"statistics","title":"Statistics for Data Science","category":"Data Science","difficulty":2,"duration_hours":4,"prerequisites":["numpy_pandas"],"description":"Mean, variance, distributions, correlation and probability."},
+{"id":"ml_basics","title":"Machine Learning Basics","category":"Machine Learning","difficulty":2,"duration_hours":5,"prerequisites":["numpy_pandas","statistics"],"description":"Supervised learning, features, labels, training and evaluation."},
+{"id":"ml_advanced","title":"Machine Learning Advanced","category":"Machine Learning","difficulty":3,"duration_hours":5,"prerequisites":["ml_basics"],"description":"Ensembles, tuning, cross-validation and model selection."},
+{"id":"deep_learning","title":"Deep Learning Basics","category":"Deep Learning","difficulty":3,"duration_hours":5,"prerequisites":["ml_basics","python_advanced"],"description":"Neural networks, training and deep learning concepts."},
+{"id":"nlp","title":"Natural Language Processing","category":"NLP","difficulty":3,"duration_hours":4,"prerequisites":["ml_basics"],"description":"Text preprocessing, representations and NLP tasks."},
+{"id":"computer_vision","title":"Computer Vision Basics","category":"Computer Vision","difficulty":3,"duration_hours":4,"prerequisites":["ml_basics"],"description":"Images, features and introductory vision workflows."},
+{"id":"generative_ai","title":"Generative AI Basics","category":"Generative AI","difficulty":3,"duration_hours":4,"prerequisites":["python_advanced","ml_basics"],"description":"Generative models, prompts and responsible AI basics."},
+{"id":"ml_deployment","title":"Model Deployment Basics","category":"MLOps","difficulty":3,"duration_hours":4,"prerequisites":["ml_advanced"],"description":"Saving models, APIs and basic deployment concepts."},
+{"id":"beginner_project","title":"Beginner AI Project","category":"Project","difficulty":1,"duration_hours":4,"prerequisites":["python_basics"],"description":"Small project applying Python and data handling."},
+{"id":"intermediate_project","title":"Intermediate ML Project","category":"Project","difficulty":2,"duration_hours":6,"prerequisites":["ml_basics","data_visualization"],"description":"Build and evaluate an end-to-end machine learning project."},
+{"id":"advanced_project","title":"Advanced AI Application","category":"Project","difficulty":3,"duration_hours":8,"prerequisites":["ml_advanced","ml_deployment"],"description":"Build, evaluate and present an AI application."}
+]

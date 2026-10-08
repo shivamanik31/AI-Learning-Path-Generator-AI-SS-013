@@ -1,0 +1,5 @@
+student_id,name,goal,current_skill_level,completed_topics
+S001,Rahul,AI Engineer,Beginner,
+S002,Priya,Data Scientist,Intermediate,python_basics
+S003,Arun,ML Engineer,Advanced,"python_basics;python_intermediate;python_advanced;numpy_pandas;statistics;ml_basics"
+S004,Anu,Full Stack AI,Beginner,
